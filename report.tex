@@ -1,0 +1,40 @@
+\documentclass{article}
+
+\title{Raspberry Pi report}
+\date{2021-05-17}
+\author{Steffen Geving}
+
+\usepackage{graphicx}
+\usepackage{apacite}
+\usepackage[english]{babel}
+\usepackage{url}
+
+
+\begin{document}
+\pagenumbering{gobble} % This disables page numbers on this page
+\maketitle
+    \begin{figure}[h!]
+            \centering
+            \includegraphics[scale=0.5]{rpilogo.png}
+            \caption{The official Raspberry Pi Foundation Logo}
+            \label{fig:rpilogo}
+    \end{figure}
+
+    \begin{center}
+        \vspace*{\fill}
+        Raspberry Pi is a trademark of the Raspberry Pi Foundation.
+        
+    \end{center}
+    \newpage
+
+    \tableofcontents
+    \newpage
+
+    \section{The Raspberry Pi}
+    The Raspberry Pi is a low-cost general purpose computer made to allow easy access into computing for students and children, as well as being a great tool for projects that require a more complex computing platform than for example an MCU like the Atmel AVR yet still being easy to use unlike an FPGA. ~\citeauthor[]{RaspberryPi}
+
+    
+    
+    \bibliographystyle{apacite}
+    \bibliography{bibtex/report}
+\end{document}

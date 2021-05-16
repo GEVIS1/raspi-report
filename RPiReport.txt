@@ -1,0 +1,32 @@
+The Raspberry Pi is a low-cost general purpose computer made to allow easy access into computing for students and children, as well as being a great tool for projects that require a more complex computing platform than for example an MCU like the Atmel AVR yet still being easy to use unlike an FPGA.
+
+The Raspberry Pi was started because the creator felt there was a need for a cheap computer that people could learn with, similar to the BBC micro in the eighties. The Raspberry Pi is the brainchild of Eben Upton. Inspired by the computer of his childhood, the BBC Micro, he felt there was a need for a similar solution for students and children of today. So he set out to make a general purpose computer that would be easy to use and also be low cost, as to be available to developing countries too. To aid in his design for his computer he consulted teachers, computer hobbyists and academics and put together a group aimed at devising his dream to inspire children to get into computing.
+
+<RPi versions and timeline>
+
+You can put any operating system that compiles for ARMv6-32 RPi1 bit or ARMv7-32 bit RPi 2 v1.1 ARMv8-64 bit RPi 2 v1.2 and latter models. The offical operating system for the Raspberry Pi is Raspberry Pi OS (formerly Rasbian). According to the site distrowatch.com the top 3 distributions for the Raspberry Pi by popularity are MX Linux, Manjaro Linux and openSUSE.
+
+Raspberry Pi models and parts price table:
+I used Wikipedia for prices and all prices are in USD
+
+
+The Raspberry Pi is a general purpose computer, meaning that it is designed to be plugged into various human input and output devices and be directly influenced by a human being. And that it runs an operating system that you can install software on. Microcontrollers (MCUs) on the other hand are more barebone and need a pre-compiled software image flashed directly on to the chip. Or it needs a bootloader so that it can boot up and read its program from a storage device. Examples are the Micro:Bit and Arduino microcontrollers. A microprocessor is similar to a microcontroller in the fact that it needs a program to be pre-compiled anytime you want it to run differently, but microprocessors also lack many features that MCUs have. Like integrated RAM, various I/O devices. Microprocessors are designed to be used in conjunction with other discrete integrated circuits.
+
+Raspberry Pis can be used for anything from a Personal Computer to a lightswitch. Many people use the Raspberry Pi as an arcade game emulator and build them into tabletop arcade machines or arcade controllers. Another popular use for the Raspberry Pi is in robotics as its generious GPIO headers allow for many sensors and motors to be controlled. Personally I have used my Raspberry Pi as a security camera with Raspbian and the software Motion https://motion-project.github.io/index.html
+Some uses for the Raspberry Pi I found in my research was this paper {https://www.proquest.com/docview/2246157704} that proposes a hardware platform to be made that uses the Raspberry Pi, to monitor and report water quality in real time. In Greenhills School, Michigan, USA, they have Raspberry Pi kits available for students to check out of the library to use for projects in the classroom or at home{https://www.proquest.com/docview/1643157865}.
+
+
+In my opinion the best use of a Raspberry Pi is in teaching young people computing. As PCs today are a behemoth of abstraction over unfathomably complex electric circuitry.
+
+
+
+
+
+Legal
+“Raspberry Pi is a trademark of the Raspberry Pi Foundation”
+
+
+References 
+
+https://www.proquest.com/docview/2246157704 Drinking water monitoring system
+https://www.proquest.com/docview/1643157865 Greenhills School
